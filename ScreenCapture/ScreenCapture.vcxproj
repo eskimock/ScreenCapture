@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A3E62199-1AA1-4D7D-8938-0A7850AF165F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ScreenCapture</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="ColorWnd.h" />
+    <ClInclude Include="PreDefine.h" />
+    <ClInclude Include="DrawGraph.hpp" />
+    <ClInclude Include="GlobalAPI.h" />
+    <ClInclude Include="RectEx.hpp" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="ScrnCapWnd.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Toolbar.h" />
+    <ClInclude Include="ToolWnd.h" />
+    <ClInclude Include="WndImpl.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ColorWnd.cpp" />
+    <ClCompile Include="DrawGraph.cpp" />
+    <ClCompile Include="GlobalAPI.cpp" />
+    <ClCompile Include="ScrnCapMain.cpp" />
+    <ClCompile Include="ScrnCapWnd.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Toolbar.cpp" />
+    <ClCompile Include="ToolWnd.cpp" />
+    <ClCompile Include="WndImpl.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ScreenCapture.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Debug\Color\color1.bmp" />
+    <None Include="..\Debug\Color\color10.bmp" />
+    <None Include="..\Debug\Color\color11.bmp" />
+    <None Include="..\Debug\Color\color12.bmp" />
+    <None Include="..\Debug\Color\color2.bmp" />
+    <None Include="..\Debug\Color\color3.bmp" />
+    <None Include="..\Debug\Color\color4.bmp" />
+    <None Include="..\Debug\Color\color5.bmp" />
+    <None Include="..\Debug\Color\color6.bmp" />
+    <None Include="..\Debug\Color\color7.bmp" />
+    <None Include="..\Debug\Color\color8.bmp" />
+    <None Include="..\Debug\Color\color9.bmp" />
+    <None Include="..\Debug\CursorRes\Colorful.cur" />
+    <None Include="..\Debug\IconRes\AppIcon_Big.ico" />
+    <None Include="..\Debug\IconRes\AppIcon_Small.ico" />
+    <None Include="..\Debug\IconRes\arrow.bmp" />
+    <None Include="..\Debug\IconRes\cancel.bmp" />
+    <None Include="..\Debug\IconRes\ellipse.bmp" />
+    <None Include="..\Debug\IconRes\finish.bmp" />
+    <None Include="..\Debug\IconRes\highlight.bmp" />
+    <None Include="..\Debug\IconRes\hot\arrow_hot.bmp" />
+    <None Include="..\Debug\IconRes\hot\cancel_hot.bmp" />
+    <None Include="..\Debug\IconRes\hot\ellipse_hot.bmp" />
+    <None Include="..\Debug\IconRes\hot\finish_hot.bmp" />
+    <None Include="..\Debug\IconRes\hot\highlight_hot.bmp" />
+    <None Include="..\Debug\IconRes\hot\recap_hot.bmp" />
+    <None Include="..\Debug\IconRes\hot\rectangle_hot.bmp" />
+    <None Include="..\Debug\IconRes\hot\redo_hot.bmp" />
+    <None Include="..\Debug\IconRes\hot\save_hot.bmp" />
+    <None Include="..\Debug\IconRes\hot\scrawl_hot.bmp" />
+    <None Include="..\Debug\IconRes\hot\undo_hot.bmp" />
+    <None Include="..\Debug\IconRes\recap.bmp" />
+    <None Include="..\Debug\IconRes\rectangle.bmp" />
+    <None Include="..\Debug\IconRes\redo.bmp" />
+    <None Include="..\Debug\IconRes\save.bmp" />
+    <None Include="..\Debug\IconRes\scrawl.bmp" />
+    <None Include="..\Debug\IconRes\undo.bmp" />
+    <None Include="..\Debug\PenSize\size1.bmp" />
+    <None Include="..\Debug\PenSize\size2.bmp" />
+    <None Include="..\Debug\PenSize\size3.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,41 @@
+﻿生成启动时间为 2014/4/12 13:00:26。
+     1>项目“F:\10projects\ScreenCapture\ScreenCapture\ScreenCapture\ScreenCapture.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\ScreenCapture.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ColorWnd.cpp DrawGraph.cpp GlobalAPI.cpp ScrnCapMain.cpp ScrnCapWnd.cpp stdafx.cpp Toolbar.cpp ToolWnd.cpp WndImpl.cpp
+         ColorWnd.cpp
+         DrawGraph.cpp
+         GlobalAPI.cpp
+         ScrnCapMain.cpp
+         ScrnCapWnd.cpp
+         stdafx.cpp
+         Toolbar.cpp
+         ToolWnd.cpp
+         WndImpl.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\ScreenCapture.res" ScreenCapture.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\10projects\ScreenCapture\ScreenCapture\Release\ScreenCapture.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\ScreenCapture.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\10projects\ScreenCapture\ScreenCapture\Release\ScreenCapture.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\10projects\ScreenCapture\ScreenCapture\Release\ScreenCapture.lib" /MACHINE:X86 Release\ScreenCapture.res
+         Release\ColorWnd.obj
+         Release\DrawGraph.obj
+         Release\GlobalAPI.obj
+         Release\ScrnCapMain.obj
+         Release\ScrnCapWnd.obj
+         Release\stdafx.obj
+         Release\Toolbar.obj
+         Release\ToolWnd.obj
+         Release\WndImpl.obj
+         正在生成代码
+         已完成代码的生成
+         ScreenCapture.vcxproj -> F:\10projects\ScreenCapture\ScreenCapture\Release\ScreenCapture.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\10projects\ScreenCapture\ScreenCapture\Release\ScreenCapture.exe;#1" /manifest Release\ScreenCapture.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\ScreenCapture.unsuccessfulbuild”。
+         正在对“Release\ScreenCapture.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\10projects\ScreenCapture\ScreenCapture\ScreenCapture\ScreenCapture.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.74

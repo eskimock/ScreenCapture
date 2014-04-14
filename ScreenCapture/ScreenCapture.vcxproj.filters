@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源文件\ToolNormalImage">
+      <UniqueIdentifier>{a2a23943-1ee0-41a0-a384-ed60347b5b65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\ToolHotImage">
+      <UniqueIdentifier>{49337292-8ac1-479b-a290-ad21a424575a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\ColorImage">
+      <UniqueIdentifier>{3653ed7f-186f-4102-9e52-e1ddd19117ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\PenSizeImage">
+      <UniqueIdentifier>{02352a0a-0639-4dda-b0bd-b79e7c255e99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\AppIcon">
+      <UniqueIdentifier>{f698a15f-6845-4fc1-9b1a-3892a7678810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Cursor">
+      <UniqueIdentifier>{1cd00303-7ab9-45d2-b92d-39ad9534a4c2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrnCapWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RectEx.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WndImpl.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalAPI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawGraph.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Toolbar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PreDefine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrnCapMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrnCapWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WndImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalAPI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawGraph.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Toolbar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ScreenCapture.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Debug\IconRes\arrow.bmp">
+      <Filter>资源文件\ToolNormalImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\cancel.bmp">
+      <Filter>资源文件\ToolNormalImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\ellipse.bmp">
+      <Filter>资源文件\ToolNormalImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\finish.bmp">
+      <Filter>资源文件\ToolNormalImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\recap.bmp">
+      <Filter>资源文件\ToolNormalImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\highlight.bmp">
+      <Filter>资源文件\ToolNormalImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\redo.bmp">
+      <Filter>资源文件\ToolNormalImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\save.bmp">
+      <Filter>资源文件\ToolNormalImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\scrawl.bmp">
+      <Filter>资源文件\ToolNormalImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\undo.bmp">
+      <Filter>资源文件\ToolNormalImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\rectangle.bmp">
+      <Filter>资源文件\ToolNormalImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\hot\arrow_hot.bmp">
+      <Filter>资源文件\ToolHotImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\hot\cancel_hot.bmp">
+      <Filter>资源文件\ToolHotImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\hot\ellipse_hot.bmp">
+      <Filter>资源文件\ToolHotImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\hot\finish_hot.bmp">
+      <Filter>资源文件\ToolHotImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\hot\highlight_hot.bmp">
+      <Filter>资源文件\ToolHotImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\hot\recap_hot.bmp">
+      <Filter>资源文件\ToolHotImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\hot\rectangle_hot.bmp">
+      <Filter>资源文件\ToolHotImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\hot\redo_hot.bmp">
+      <Filter>资源文件\ToolHotImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\hot\save_hot.bmp">
+      <Filter>资源文件\ToolHotImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\hot\scrawl_hot.bmp">
+      <Filter>资源文件\ToolHotImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\hot\undo_hot.bmp">
+      <Filter>资源文件\ToolHotImage</Filter>
+    </None>
+    <None Include="..\Debug\Color\color10.bmp">
+      <Filter>资源文件\ColorImage</Filter>
+    </None>
+    <None Include="..\Debug\Color\color9.bmp">
+      <Filter>资源文件\ColorImage</Filter>
+    </None>
+    <None Include="..\Debug\Color\color11.bmp">
+      <Filter>资源文件\ColorImage</Filter>
+    </None>
+    <None Include="..\Debug\Color\color12.bmp">
+      <Filter>资源文件\ColorImage</Filter>
+    </None>
+    <None Include="..\Debug\Color\color2.bmp">
+      <Filter>资源文件\ColorImage</Filter>
+    </None>
+    <None Include="..\Debug\Color\color3.bmp">
+      <Filter>资源文件\ColorImage</Filter>
+    </None>
+    <None Include="..\Debug\Color\color4.bmp">
+      <Filter>资源文件\ColorImage</Filter>
+    </None>
+    <None Include="..\Debug\Color\color5.bmp">
+      <Filter>资源文件\ColorImage</Filter>
+    </None>
+    <None Include="..\Debug\Color\color6.bmp">
+      <Filter>资源文件\ColorImage</Filter>
+    </None>
+    <None Include="..\Debug\Color\color7.bmp">
+      <Filter>资源文件\ColorImage</Filter>
+    </None>
+    <None Include="..\Debug\Color\color8.bmp">
+      <Filter>资源文件\ColorImage</Filter>
+    </None>
+    <None Include="..\Debug\Color\color1.bmp">
+      <Filter>资源文件\ColorImage</Filter>
+    </None>
+    <None Include="..\Debug\PenSize\size1.bmp">
+      <Filter>资源文件\PenSizeImage</Filter>
+    </None>
+    <None Include="..\Debug\PenSize\size3.bmp">
+      <Filter>资源文件\PenSizeImage</Filter>
+    </None>
+    <None Include="..\Debug\PenSize\size2.bmp">
+      <Filter>资源文件\PenSizeImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\AppIcon_Big.ico">
+      <Filter>资源文件\AppIcon</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\AppIcon_Small.ico">
+      <Filter>资源文件\AppIcon</Filter>
+    </None>
+    <None Include="..\Debug\CursorRes\Colorful.cur">
+      <Filter>资源文件\Cursor</Filter>
+    </None>
+  </ItemGroup>
+</Project>
